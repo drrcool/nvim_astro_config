@@ -6,6 +6,26 @@
 return {
   -- first key is the mode
   n = {
+    -- Window navigation
+      ["<leader>w"] = { name = "Window" },
+      ["<leader>wh"] = {
+        "<C-w>h", desc="Move Left"
+      },
+      ["<leader>wj"] = {
+        "<C-w>j", desc="Move Down"
+      },
+      ["<leader>wk"] = {
+        "<C-w>k", desc="Move Up"
+      },
+      ["<leader>wl"] = {
+        "<C-w>l", desc="Move Right"
+      },
+      ["<leader>ws"] = {
+        "<C-w>s", desc="Split Below"
+      },
+      ["<leader>wv"] = {
+        "<C-w>v", desc="Split Right"
+      },
     -- second key is the lefthand side of the map
 
     -- navigate buffer tabs with `H` and `L`
